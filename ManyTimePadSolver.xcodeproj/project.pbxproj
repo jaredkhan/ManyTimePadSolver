@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F2A9F101D15E0B1004DD8DF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2A9F0F1D15E0B1004DD8DF /* main.swift */; };
+		7F4621EB1DA0033700E2E0CA /* XORUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4621EA1DA0033700E2E0CA /* XORUtil.swift */; };
+		7F9FBB981DBCD00F00099A3B /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9FBB971DBCD00F00099A3B /* ConsoleIO.swift */; };
+		7F9FBB9A1DBCD05700099A3B /* ManyTimePadSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9FBB991DBCD05700099A3B /* ManyTimePadSolver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F2A9F0A1D15E0B1004DD8DF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F2A9F0C1D15E0B1004DD8DF /* ManyTimePadSolver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ManyTimePadSolver; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2A9F0F1D15E0B1004DD8DF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7F4621EA1DA0033700E2E0CA /* XORUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XORUtil.swift; sourceTree = "<group>"; };
+		7F4621EC1DA0069400E2E0CA /* XORTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = XORTest.playground; sourceTree = "<group>"; };
+		7F9FBB971DBCD00F00099A3B /* ConsoleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
+		7F9FBB991DBCD05700099A3B /* ManyTimePadSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManyTimePadSolver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F2A9F091D15E0B1004DD8DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F2A9F031D15E0B1004DD8DF = {
+			isa = PBXGroup;
+			children = (
+				7F2A9F0E1D15E0B1004DD8DF /* ManyTimePadSolver */,
+				7F2A9F0D1D15E0B1004DD8DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F2A9F0D1D15E0B1004DD8DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F2A9F0C1D15E0B1004DD8DF /* ManyTimePadSolver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F2A9F0E1D15E0B1004DD8DF /* ManyTimePadSolver */ = {
+			isa = PBXGroup;
+			children = (
+				7F2A9F0F1D15E0B1004DD8DF /* main.swift */,
+				7F9FBB991DBCD05700099A3B /* ManyTimePadSolver.swift */,
+				7F9FBB971DBCD00F00099A3B /* ConsoleIO.swift */,
+				7F4621EA1DA0033700E2E0CA /* XORUtil.swift */,
+				7F4621EC1DA0069400E2E0CA /* XORTest.playground */,
+			);
+			path = ManyTimePadSolver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F2A9F0B1D15E0B1004DD8DF /* ManyTimePadSolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2A9F131D15E0B1004DD8DF /* Build configuration list for PBXNativeTarget "ManyTimePadSolver" */;
+			buildPhases = (
+				7F2A9F081D15E0B1004DD8DF /* Sources */,
+				7F2A9F091D15E0B1004DD8DF /* Frameworks */,
+				7F2A9F0A1D15E0B1004DD8DF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManyTimePadSolver;
+			productName = ManyTimePadSolver;
+			productReference = 7F2A9F0C1D15E0B1004DD8DF /* ManyTimePadSolver */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F2A9F041D15E0B1004DD8DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jared Khan";
+				TargetAttributes = {
+					7F2A9F0B1D15E0B1004DD8DF = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 7F2A9F071D15E0B1004DD8DF /* Build configuration list for PBXProject "ManyTimePadSolver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F2A9F031D15E0B1004DD8DF;
+			productRefGroup = 7F2A9F0D1D15E0B1004DD8DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F2A9F0B1D15E0B1004DD8DF /* ManyTimePadSolver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F2A9F081D15E0B1004DD8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9FBB981DBCD00F00099A3B /* ConsoleIO.swift in Sources */,
+				7F2A9F101D15E0B1004DD8DF /* main.swift in Sources */,
+				7F9FBB9A1DBCD05700099A3B /* ManyTimePadSolver.swift in Sources */,
+				7F4621EB1DA0033700E2E0CA /* XORUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F2A9F111D15E0B1004DD8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F2A9F121D15E0B1004DD8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		7F2A9F141D15E0B1004DD8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7F2A9F151D15E0B1004DD8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F2A9F071D15E0B1004DD8DF /* Build configuration list for PBXProject "ManyTimePadSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2A9F111D15E0B1004DD8DF /* Debug */,
+				7F2A9F121D15E0B1004DD8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2A9F131D15E0B1004DD8DF /* Build configuration list for PBXNativeTarget "ManyTimePadSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2A9F141D15E0B1004DD8DF /* Debug */,
+				7F2A9F151D15E0B1004DD8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F2A9F041D15E0B1004DD8DF /* Project object */;
+}
