@@ -96,9 +96,9 @@ class ManyTimePadSolver {
     func applyGuess(characterIndex: Int, ciphertextIndex: Int, guess: String) {
         var guess = guess
         var characterIndex = characterIndex
-        while guess.characters.count > 0 {
-            applyGuess(characterIndex, ciphertextIndex: ciphertextIndex, guess: guess.characters.first!)
-            guess = String(guess.characters.dropFirst())
+        while guess.count > 0 {
+            applyGuess(characterIndex, ciphertextIndex: ciphertextIndex, guess: guess.first!)
+            guess = String(guess.dropFirst())
             characterIndex = characterIndex + 1
         }
     }

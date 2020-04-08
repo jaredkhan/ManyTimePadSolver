@@ -68,7 +68,7 @@ class ConsoleIO {
         while true {
             let input = readLine()
             if let actionString = input {
-                if actionString.characters.count > 0 {
+                if actionString.count > 0 {
                     return EditAction.guess(actionString)
                 } else {
                     return EditAction.cancel

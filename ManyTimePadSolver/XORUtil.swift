@@ -8,7 +8,7 @@
 
 import Foundation
 
-class XORUtil {
+public struct XORUtil {
     /**
      Creates an array of UInt8s from a hex representation
      */
@@ -16,12 +16,11 @@ class XORUtil {
         var result = [UInt8]()
         var remainingHexString = hexString
         
-        while remainingHexString.characters.count >= 2 {
-            let range = remainingHexString.startIndex ..< remainingHexString.characters.index(remainingHexString.startIndex, offsetBy: 2)
-            let firstTwo = remainingHexString[range]
-            let ASCIICode = UInt8(strtoul(firstTwo, nil, 16)) // convert the two char hex string to an int
+        while remainingHexString.count >= 2 {
+            let firstTwo = remainingHexString.prefix(2)
+            let ASCIICode = UInt8(firstTwo, radix: 16)! // convert the two char hex string to an int
             result.append(ASCIICode)
-            remainingHexString = String(remainingHexString.characters.dropFirst(2))
+            remainingHexString = String(remainingHexString.dropFirst(2))
         }
         return result
     }
@@ -77,20 +76,3 @@ extension Character {
         return UInt8(scalars[scalars.startIndex].value)
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
